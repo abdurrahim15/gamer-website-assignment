@@ -1,0 +1,27 @@
+@media screen and (max-width:770px) {
+    .logo-container{
+        min-width: 30%;
+    }
+    .nav-items-container{
+        min-width: 70%;
+   
+    }
+    .nav-items-container a{
+        margin-top: 20px;
+    }
+    
+}
+
+@media screen and (max-width:426px) {
+    .nav-container{
+     flex-direction: column;
+    }
+    .nav-items-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .nav-items-container a{
+        margin-top: 20px;
+    }
+    
+}
