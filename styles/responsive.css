@@ -23,5 +23,9 @@
     .nav-items-container a{
         margin-top: 20px;
     }
+
+    .banner-container{
+        flex-direction: column-reverse;
+    }
     
 }
