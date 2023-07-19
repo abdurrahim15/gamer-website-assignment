@@ -27,5 +27,8 @@
     .banner-container{
         flex-direction: column-reverse;
     }
+    .online-games-container{
+        flex-direction: column;
+    }
     
 }

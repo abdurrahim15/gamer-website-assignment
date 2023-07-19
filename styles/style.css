@@ -82,14 +82,17 @@ font-size: 40px;
 font-weight: 600;
 text-transform: uppercase;
 }
+.banner-container h2{
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 .text-color{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
 -webkit-background-clip: text;
     color: transparent;
-    font-size: 60px;
-    font-weight: 700;
-    text-transform: uppercase;
+  
 }
 .sign-btn{
     padding: 15px 25px;
@@ -109,4 +112,15 @@ margin-left: 10px;
 }
 .banner-photo{
     width: 400px;
+}
+/* online games section */
+.online-games{
+    text-align: center;
+}
+.online-games-container{
+    display: flex;
+    justify-content: space-between;
+}
+.online-games-card img{
+    width: 90%;
 }
