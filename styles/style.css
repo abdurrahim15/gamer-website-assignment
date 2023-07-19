@@ -163,3 +163,19 @@ line-height: 30px;
     width: 50%;
     margin: 0 auto;
 }
+
+/* Games types style */
+.games-types{
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+  margin: 50 auto;
+}
+.games-item{
+    display: flex;
+}
+.games-item img{
+   width: 50px;
+   height: auto;
+}
